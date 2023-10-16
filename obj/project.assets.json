@@ -10711,11 +10711,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MO\\CBY\\FINTECH-YE\\cu60\\DockerUniversity.csproj",
+      "projectUniqueName": "C:\\Users\\MO\\CBY\\FINTECH-YE\\repos\\university-app\\university-app\\DockerUniversity.csproj",
       "projectName": "DockerUniversity",
-      "projectPath": "C:\\Users\\MO\\CBY\\FINTECH-YE\\cu60\\DockerUniversity.csproj",
+      "projectPath": "C:\\Users\\MO\\CBY\\FINTECH-YE\\repos\\university-app\\university-app\\DockerUniversity.csproj",
       "packagesPath": "C:\\Users\\MO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MO\\CBY\\FINTECH-YE\\cu60\\obj\\",
+      "outputPath": "C:\\Users\\MO\\CBY\\FINTECH-YE\\repos\\university-app\\university-app\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MO\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,15 +1,17 @@
-FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build-env
+FROM mcr.microsoft.com/dotnet/sdk:7.0-alpine AS build-env
 WORKDIR /DockerUniversity
 
-# Copy everything
-COPY . ./
-# Restore as distinct layers
-RUN dotnet restore
+COPY ["DockerUniversity.csproj", "."]
+# RUN dotnet restore
+RUN dotnet restore "DockerUniversity.csproj"
+COPY . .
+
 # Build and publish a release
-RUN dotnet publish -c Release -o out
+RUN dotnet build "DockerUniversity.csproj" -c Release -o out
+RUN dotnet publish "DockerUniversity.csproj" -c Release -o out
 
 # Build runtime image
-FROM mcr.microsoft.com/dotnet/aspnet:7.0
+FROM mcr.microsoft.com/dotnet/aspnet:7.0-alpine
 WORKDIR /DockerUniversity
 COPY --from=build-env /DockerUniversity/out .
 COPY CU.db /db/CU.db

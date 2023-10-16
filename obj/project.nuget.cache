@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TDeUbaTNxPHznLENWCN/BmBMEM9hST+bYR+PwfoVqEfzSN1VioHEGwsaLfWF7rRs/o2gSxXT60XiU4WcC7IBgg==",
+  "dgSpecHash": "DopmnguJWB7VNTHpHMuCwuaaVi4zKLhMEb5sURpRrz8tNw0p7w5QstYubHj7pckQ7iGybyudksIoj0VvqwJ2GA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MO\\CBY\\FINTECH-YE\\cu60\\DockerUniversity.csproj",
+  "projectFilePath": "C:\\Users\\MO\\CBY\\FINTECH-YE\\repos\\university-app\\university-app\\DockerUniversity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MO\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\MO\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
